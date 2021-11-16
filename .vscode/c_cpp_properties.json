@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/mak5rt/git/kalman_filters/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/mak5rt/git/kalman_filters/src/depthimage_to_laserscan/include/**",
+        "/home/mak5rt/git/kalman_filters/src/kobuki_bumper2pc/include/**",
+        "/home/mak5rt/git/kalman_filters/src/kobuki_desktop/kobuki_gazebo_plugins/include/**",
+        "/home/mak5rt/git/kalman_filters/src/robot_pose_ekf/include/**",
+        "/home/mak5rt/git/kalman_filters/src/turtlebot_apps/turtlebot_actions/include/**",
+        "/home/mak5rt/git/kalman_filters/src/yocs_cmd_vel_mux/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

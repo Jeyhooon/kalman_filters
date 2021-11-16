@@ -1,0 +1,19 @@
+<launch>
+  
+    <!-- TurtleBot Gazebo-->
+    <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch"/>
+
+    <!--RobotPose EKF package-->
+    <include file="$(find robot_pose_ekf)/robot_pose_ekf.launch"/>
+
+    <!--Odom to Trajectory package-->
+    <include file="$(find odom_to_trajectory)/launch/create_trajectory.launch"/>
+
+    <!--Turtlebot Teleop-->
+    <include file="$(find turtlebot_teleop)/launch/keyboard_teleop.launch"/>
+      
+    <!--RVIZ-->
+    <include file="$(find main)/launch/RvizLaunch.launch"/>
+  
+  
+  </launch>
